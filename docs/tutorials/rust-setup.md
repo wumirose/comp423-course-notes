@@ -1,10 +1,11 @@
-# Setting up a Dev Container for Rust 
+# Setting up a Dev Container in Rust 
 
 * Primary author: [Olawumi Olasunkanmi](https://github.com/wumirose)
+* Reviewer: [Vibhas Nair](https://github.com/nairvibhas18)
 
 ## **Introduction**
 
-Welcome! In this tutorial, you'll learn how to create a static website to teach Rust programming using **Material for MkDocs**. By the end, you'll have a polished, functional website deployed on GitHub Pages. This website will feature organized lessons, examples, and practical exercises designed to guide learners through the fundamentals of Rust.
+Welcome! In this tutorial, you'll learn how to create a development container in the Rust programming. By the end, you'll have a functional development environment in Rust, and you will have run some simple code. 
 
 ### Why Rust?
 
@@ -14,9 +15,8 @@ Welcome! In this tutorial, you'll learn how to create a static website to teach 
 
 This tutorial is designed to help you:
 
-- Master Rust in a structured, beginner-friendly way.
-- Create and share valuable teaching resources for yourself or others.
-- Gain hands-on experience with modern development practices like CI/CD and containerized development. 
+- Learn basic Rust commands in a structured, beginner-friendly way.
+- Gain hands-on experience with modern development practices like containerized development. 
 
 --- 
 
@@ -84,6 +84,7 @@ Replace `your-username` with your GitHub username.
 git push --set-upstream origin main
 ```
 
+> [!Note]
 > `git push --set-upstream origin main`: This command pushes the main branch to the remote repository origin. The `--set-upstream` flag sets up the main branch to track the remote branch, meaning future pushes and pulls can be done without specifying the branch name and just writing `git push origin` when working on your local `main` branch. This long flag has a corresponding `-u` short flag.
 
 4. Back in your web browser, refresh your GitHub repository to see that the same commit you made locally has now been pushed to remote. You can use git log locally to see the commit ID and message which should match the ID of the most recent commit on GitHub. This is the result of pushing your changes to your remote repository.
